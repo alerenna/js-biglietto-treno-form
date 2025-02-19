@@ -17,7 +17,8 @@
     <input id="age" type="number" placeholder="Type your age">
     <button id="calculate">Calculate</button> -->
 
-    <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+    <main>
+        <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
 
     <form class="row g-3 needs-validation" novalidate>
         <div class="col-md-4">
@@ -42,40 +43,46 @@
             </div>
         </div>
 
-        <button id="calculate" type="submit" class="btn btn-primary">
-            Genera
-        </button>
-
-        <button id="annulla">Annulla</button>
+        <div class="commands">
+            <button id="calculate" type="submit">
+                Genera
+            </button>
+    
+            <button id="annulla">Annulla</button>
+        </div>
+        
 
     </form>
 
     <h1>IL TUO BIGLIETTO</h1>
     <div class="container">
-        <div class="row">
-            <h2>DETTAGLI DEL PASSEGGERO</h2>
-            <div class="col-md-3">
+        <h2>DETTAGLI DEL PASSEGGERO</h2>
+        <div class="row card-borders">
+            
+            <div class="col-md-3 nome-passeggero">
                 <div>NOME PASSEGGERO</div>
-                <div id="cardName" class="name">Nome passeggero</div>
+                <div class="value" id="cardName" class="name">Nome passeggero</div>
             </div>
             <div id="cardTicket" class="col-md-3">
-                <div>Offerta</div>
-                <div>Biglietto standard</div>
+                <div class="title">Offerta</div>
+                <div class="value">Biglietto standard</div>
             </div>
             <div id="cardCarrozza" class="col-md-2">
-                <div>Carrozza</div>
-                <div>5</div>
+                <div class="title">Carrozza</div>
+                <div class="value">5</div>
             </div>
             <div id="cardCode" class="col-md-2">
-                <div>Codice CP</div>
-                <div>92911</div>
+                <div class="title">Codice CP</div>
+                <div class="value">92911</div>
             </div>
             <div class="col-md-2">
-                <div>Costo Biglietto</div>
-                <div id="cardPrice">0000.00</div>
+                <div class="title">Costo Biglietto</div>
+                <div class="value" id="cardPrice">0000.00</div>
             </div>
         </div>
     </div>
+    </main>
+    
 
 
     <script src="./main.js"></script>

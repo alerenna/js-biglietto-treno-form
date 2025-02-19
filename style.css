@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body {
+    padding: 3rem;
+
+    h1 {
+        text-align: center;
+        color: white;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+
+    main {
+        max-width: 1200px;
+        background-color: red;
+        border-radius: 2rem;
+        padding: 4rem;
+        margin: auto;
+    }
+
+}
+
+
+
+
+form {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+
+    .commands{
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+
+        button {
+            background-color: lightgray;
+            border-color: red;
+            color: red;
+            padding: 0.5rem 1rem;
+            border-radius: 0.75rem;
+        }
+    }
+}
+
+.container {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 1rem;
+
+    h2 {
+        font-size: 20px;
+        margin-left: 2rem;
+    }
+
+    .card-borders {
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .nome-passeggero {
+        background-color: grey;
+        padding: 1rem;
+        font-weight: 900;
+    }
+
+    .title {
+        font-weight: bold;
+        margin-bottom: 4rem;
+        margin-top: 1rem;
+    }
+
+    .value {
+        margin-bottom: 1rem;
+    }
+}
